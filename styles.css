@@ -4,3 +4,54 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+/* custom resusable classes */
+.flex {
+  display: flex;
+}
+.min-screen {
+  min-height: 100vh;
+}
+.text-white {
+  color: white;
+}
+.text-gray {
+  color: grey;
+}
+.text-center {
+  text-align: center;
+}
+.my-1 {
+  margin-block: 1rem;
+}
+.my-2 {
+  margin-block: 2rem;
+}
+
+.home{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://themewagon.github.io/iPortfolio/assets/img/hero-bg.jpg);
+    background-size: cover;
+  background-position: center;
+  display: flex;
+  gap: 10px;
+  height: 100vh;
+  padding-left: 10%;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.home h1 {
+  font-size: clamp(1.875rem, 1.4205rem + 2.2727vw, 3.125rem);
+  margin:1px auto;
+}
+.home p {
+  font-size: clamp(1.370rem, 0.9650rem + 2.0450vw, 1.0rem);
+  width: 580px;
+    margin:1px auto;
+}
+.home span{
+     margin:1px auto;
+}
+.home a button{
+    background-color: gradient(rgb(8,162,223),rgb(8,162,223));
+}

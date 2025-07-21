@@ -222,7 +222,8 @@ flex-wrap: wrap;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   max-width: 350px;
-  height: 190px;
+  height: 220px;
+  line-height: 25px;
 }
 .card i {
   font-size: 20px;

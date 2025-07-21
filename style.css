@@ -16,7 +16,7 @@
   color: white;
 }
 .text-gray {
-  color: grey;
+  color: rgb(104, 103, 103);
 }
 .text-center {
   text-align: center;
@@ -198,6 +198,42 @@ aside ul li a.active i {
 .progress-bar {
   height: 10px;
   background-color: rgb(8, 162, 223);
+}
+/* service section stylling */
+.service-cards{
+
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 10px;
+  justify-content: center;
+}
+.services h1{
+  margin-left: 500px;
+  font-size: 40px;
+}
+.services{
+  padding: 20px;
+  width: 1200px;
+flex-wrap: wrap;
+}
+.card{
+  /* background-color: #7e7979; */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  max-width: 350px;
+  height: 190px;
+}
+.card i {
+  font-size: 20px;
+  color: rgb(8, 162, 223);
+}
+.card button{
+  background-color: rgb(8, 162, 223);
+  color: white;
+  padding: 10px 20px;
+  margin-left: 80px;
+  font-size: 12px;
 }
 /* css media queries */
 @media (max-width: 1199px) {
